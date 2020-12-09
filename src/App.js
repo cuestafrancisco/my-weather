@@ -1,28 +1,32 @@
-import React from "react";
+import React from "react"; // tells the file to import the react object from the package.json
 
 import Titles from "./components/Titles";
 import Form from "./components/Form";
 import Weather from "./components/Weather";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
+
+
+
+
+//initiates component App
+//an instance of App which extends React.Component
+class App extends React.Component {
+  
+  //render method display (returns) the data
+  //
+  render() {
+    return (
+            //parent element div
+            <div>
+              <Form/>
+              <Weather/>
+              <Titles/>
+            </div>
+        
        
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+     
+    );
+  }
+};
 
 export default App;

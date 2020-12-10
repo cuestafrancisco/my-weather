@@ -8,8 +8,7 @@ import App from './App';
 
 //method  with first argument component 
 //second argument the location where you want to insert your component
-
-
-ReactDOM.render(<App />, document.getElementById('root'));
+//conects react to my html
+ReactDOM.render(<App />, document.getElementById('root')); 
 //registerServiceWorker();
 

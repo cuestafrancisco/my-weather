@@ -3,7 +3,7 @@ import React from "react";
 
 //<p>The Current Weather Conditions for {this.props.city}</p>
 
-
+//stateless functionals components
 const Weather = props => (
 	<div className="weather__info">
 	 {	

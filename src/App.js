@@ -1,7 +1,8 @@
 import React from "react"; // tells the file to import the react object from the package.json
 
 import Titles from "./components/Titles";
-import Form from "./components/Form";
+import Form from "./components/Form"
+//import Form from "./components/Form";
 import Weather from "./components/Weather";
 
 
@@ -13,9 +14,10 @@ const API_KEY = "ddaf04454f352d23f54d78cb92a7ea9a";
 class App extends React.Component { //initialize state which is an object containing key value pairs
   state ={
     temperature: undefined,
-    city:  undefined,
+    city: undefined,
     country: undefined,
     humidity: undefined,
+    description: undefined,
     error: undefined
 
   }
@@ -60,20 +62,29 @@ class App extends React.Component { //initialize state which is an object contai
     return (
             //parent element div
             <div>
-            <Titles/>
-              <Form getWeather={this.getWeather}/>
-              <Weather 
-              temperature={this.state.temperature}
-              city={this.state.city}
-              country={this.state.country}
-              humidity={this.state.humidity}
-              description={this.state.description}
-              error={this.state.error}
-              />
-             
+            <div className="wrapper">
+              <div className="main">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-xs-5 title-container">
+                      <Titles />
+                    </div>
+                    <div className="col-xs-7 form-container">
+                      <Form getWeather={this.getWeather} />
+                      <Weather 
+                        temperature={this.state.temperature} 
+                        humidity={this.state.humidity}
+                        city={this.state.city}
+                        country={this.state.country}
+                        description={this.state.description}
+                        error={this.state.error}
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-        
-       
+          </div>
      
     );
   }

@@ -5,7 +5,7 @@ class Titles extends React.Component{
         return(
             <div>
                 
-                <p>Title Componet</p>
+                <p>Title Component</p>
             </div>
         )
     }

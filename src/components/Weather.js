@@ -5,7 +5,14 @@ class Weather extends React.Component{
         return(
             <div>
             
-                <p>Weather component</p>
+                <p>The Current Weather Conditions is</p>
+
+                
+                {this.props.city}
+                {this.props.country}
+                {this.props.humidity}
+                {this.props.temperature}
+                {this.props.description}
             </div>
         )
     }

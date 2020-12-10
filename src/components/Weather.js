@@ -4,8 +4,12 @@ import React from "react";
 //<p>The Current Weather Conditions for {this.props.city}</p>
 
 //stateless functionals components
+
+
 const Weather = props => (
-	<div className="weather__info">
+	<div className= "weather__info" >
+    
+        
 	 {	
 	 	props.city && props.country && <p className="weather__key"> Location: 
 	 		<span className="weather__value"> { props.city }, { props.country }</span>

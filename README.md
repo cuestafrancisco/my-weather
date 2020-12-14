@@ -1,12 +1,75 @@
+## Project Title
+My Weather App
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Prerequisites 
+You should have Node.js and Git installed on your PC. You should also own a GitHub account.
+
+
+## Dependencies defined in package.json:
+
+   "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "bootstrap": "^3.3.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.1",
+    "register-service-worker": "^1.7.2",
+    "web-vitals": "^0.2.4"
+
+
+
+## Setup And Deployment 🔧
+To Get Started, Fork this repository to your GitHub account:
+
+
+
 ## Available Scripts
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+    
+## Project adheres to the latest JavaScript Standar
 
-In the project directory, you can run:
+   Async/await
 
-### `yarn start`
+
+  npm install
+  npm start
+
+## Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+
+See deployment for notes on how to deploy the project on a live system.
+
+## To deploy website, run:
+
+   ## Install the gh-pages package as a "dev-dependency" of the app.
+
+  $ cd my-weather
+  $ npm install gh-pages --save-dev
+  npm run deploy
+
+Prerequisites
+What things you need to install the software and how to install them
+
+Give examples
+Installing
+A step by step series of examples that tell you how to get a development env running
+
+
+
+   
+   
+
+
+### `yarn start OR npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -14,57 +77,51 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
+## Visual Studio Code
+You would need to have the latest version of VS Code and VS Code Chrome Debugger Extension installed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Say what the step will be
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Give the example
+And repeat
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+until finished
+End with an example of getting some data out of the system or using it for a little demo
 
-### `yarn eject`
+Running the tests
+Explain how to run the automated tests for this system
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Break down into end to end tests
+Explain what these tests test and why
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Give an example
+And coding style tests
+Explain what these tests test and why
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Give an example
+Deployment
+Add additional notes about how to deploy this on a live system
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Built With
+Dropwizard - The web framework used
+Maven - Dependency Management
+ROME - Used to generate RSS Feeds
+Contributing
+Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Learn More
+Versioning
+We use SemVer for versioning. For the versions available, see the tags on this repository.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Authors
+Billie Thompson - Initial work - PurpleBooth
+See also the list of contributors who participated in this project.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+License
+This project is licensed under the MIT License - see the LICENSE.md file for details
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Acknowledgments
+Hat tip to anyone whose code was used
+Inspiration
+etc

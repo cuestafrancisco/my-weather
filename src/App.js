@@ -18,6 +18,7 @@ class App extends React.Component { //initialize state which is an object contai
     country: undefined,
     humidity: undefined,
     description: undefined,
+    icon: undefined,
     error: undefined
 
   }
@@ -38,6 +39,7 @@ class App extends React.Component { //initialize state which is an object contai
         country: data.sys.country,
         humidity: data.main.humidity,
         description: data.weather[0].description,
+        icon: data.weather[0].icon,
         error: ""
       });
 
@@ -48,6 +50,7 @@ class App extends React.Component { //initialize state which is an object contai
       country: undefined,
       humidity: undefined,
       description: undefined,
+      icon: undefined,
       error: "please enter the city and country"
 
       });
@@ -78,6 +81,7 @@ class App extends React.Component { //initialize state which is an object contai
                         city={this.state.city}
                         country={this.state.country}
                         description={this.state.description}
+                        icon={this.state.icon}
                         error={this.state.error}
                       />
                     </div>

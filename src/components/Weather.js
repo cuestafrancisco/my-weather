@@ -25,11 +25,18 @@ const Weather = props => (
 	 		<span className="weather__value"> { props.humidity } </span>
 	 	</p> 
 	 }
+
 	 { 	
 	 	props.description && <p className="weather__key"> Conditions: 
 	 		<span className="weather__value"> { props.description } </span>
 	 </p> 
 	 }
+	  { 	
+	 	props.icon && <p className="weather__key"> Conditions Icon: 
+	 		<span className="weather__value"> { props.icon } </span>
+	 </p> 
+	 }
+
 	 { 
 	 	props.error && <p className="weather__error">{ props.error }</p>  
 	 }

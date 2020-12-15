@@ -73,19 +73,6 @@ See deployment for notes on how to deploy the project on a live system.
   
   3.) npm run deploy
 
-Prerequisites
-What things you need to install the software and how to install them
-
-Give examples
-
-A step by step series of examples that tell you how to get a development env running
-
-
-
-   
-   
-
-
 ### `yarn start OR npm start`
 
 Runs the app in the development mode.\

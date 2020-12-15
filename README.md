@@ -15,14 +15,22 @@ You should have Node.js and Git installed on your PC. You should also own a GitH
 ## Dependencies defined in package.json:
 
    "@testing-library/jest-dom": "^5.11.4",
+   
     "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "bootstrap": "^3.3.7",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.1",
-    "register-service-worker": "^1.7.2",
-    "web-vitals": "^0.2.4"
+   
+   "@testing-library/user-event": "^12.1.10",
+   
+   "bootstrap": "^3.3.7",
+   
+   "react": "^17.0.1",
+   
+   "react-dom": "^17.0.1",
+   
+   "react-scripts": "4.0.1",
+   
+   "register-service-worker": "^1.7.2",
+   
+   "web-vitals": "^0.2.4"
 
 
 
@@ -33,17 +41,20 @@ To Get Started, Fork this repository to your GitHub account:
 
 ## Available Scripts
     "start": "react-scripts start",
+    
     "build": "react-scripts build",
+    
     "test": "react-scripts test",
+    
     "eject": "react-scripts eject"
     
 ## Project adheres to the latest JavaScript Standar
 
    Async/await
-
-
-  npm install
-  npm start
+  
+   npm install
+  
+   npm start
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 

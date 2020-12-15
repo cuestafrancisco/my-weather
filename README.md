@@ -1,6 +1,8 @@
 ## Project Title
 My Weather App
 
+live Demo:  https://cuestafrancisco.github.io/my-weather/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -52,15 +54,19 @@ See deployment for notes on how to deploy the project on a live system.
 
    ## Install the gh-pages package as a "dev-dependency" of the app.
 
-  $ cd my-weather
-  $ npm install gh-pages --save-dev
-  npm run deploy
+ 1.)  cd my-weather
+  
+  
+  2.) npm install gh-pages --save-dev
+  
+  
+  3.) npm run deploy
 
 Prerequisites
 What things you need to install the software and how to install them
 
 Give examples
-Installing
+
 A step by step series of examples that tell you how to get a development env running
 
 
